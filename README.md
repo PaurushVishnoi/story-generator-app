@@ -31,7 +31,7 @@ cd story-generator-app
 ### 2. Create & activate a virtual environment (optional)
 ```
 python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
+source .venv/bin/activate 
 ```
 
 ```
@@ -44,14 +44,22 @@ pip install -r requirements.txt
 ```
 
 ### 4. Set your API key
-```
-Create .env 
+``` 
 
-cd story-generator -> .env
+cd story-generator-app -> Create .env 
 
 Add your OpenAI API key:
 
 OPENAI_API_KEY=sk-xxxx
+```
+
+In case you dont have API key 
+
+Create an API key from your OpenAI dashboard.
+```
+Login to Open AI -> https://platform.openai.com/settings/profile/api-keys
+
+Click "+ Create a new secret key" -> Name your key for e.g.:- "My demo key" -> Copy the generated key
 ```
 
 ### 5. Run the app
