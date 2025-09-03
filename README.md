@@ -64,7 +64,7 @@ Click "+ Create a new secret key" -> Name your key for e.g.:- "My demo key" -> C
 
 ### 5. Run the app
 ```
-streamlit run app.py
+streamlit run streamlit_app.py
 ```
 
 ## ⚠️ Notes & Gotchas
